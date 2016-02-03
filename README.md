@@ -77,6 +77,7 @@ Windows:
 	3. Library names - Shapes3D and UDP 
 
 Deployment/Field Testing:
+
 	1. Conncet to the R-Pi Hotspot
 	2. Run the vision code on R-Pi (remotely using wifi or through keyboard/mouse on R-Pi) and let it detect the landmark.
 	3. Start the processing code (it resets the data.txt file, so store any previous file before starting)
