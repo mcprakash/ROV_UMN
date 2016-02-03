@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="_core">
+      <UniqueIdentifier>{b2aa09cd-855a-4b97-86b9-3db72105656c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_core\avr">
+      <UniqueIdentifier>{39ac8f4b-bfac-4db9-980b-8b37229ad060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_core\USB">
+      <UniqueIdentifier>{11fd4a66-1bc1-49ae-9610-1b1521291d31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries">
+      <UniqueIdentifier>{67e09200-3a74-477d-a7d1-bb64bd2e25d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\Ethernet">
+      <UniqueIdentifier>{312e7688-f1e6-4c25-9bcb-2cef75859602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\Ethernet\src">
+      <UniqueIdentifier>{5c286020-152d-4e9e-bc45-611acf6bbdb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\Ethernet\src\utility">
+      <UniqueIdentifier>{2f9bcee2-efcc-463c-9872-47007e03346e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\SPI">
+      <UniqueIdentifier>{385cbe70-0a67-491e-bfc6-423fdb348c23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\Wire">
+      <UniqueIdentifier>{197e3913-be52-43f1-a7de-2dcd4bd0715c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\lsm303">
+      <UniqueIdentifier>{80ad9804-6f07-470a-8118-b2d251c54368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\l3g">
+      <UniqueIdentifier>{cd52e2aa-2dd4-44e8-9c19-f2b35df6d44e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\I2Cdev">
+      <UniqueIdentifier>{b8417f98-c29a-4472-87b2-126f4b1f18fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Visual Micro\.ROV_IMU.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\avr\dtostrf.h">
+      <Filter>_core\avr</Filter>
+    </ClInclude>
+    <ClInclude Include="c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\avr\interrupt.h">
+      <Filter>_core\avr</Filter>
+    </ClInclude>
+    <ClInclude Include="c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\avr\pgmspace.h">
+      <Filter>_core\avr</Filter>
+    </ClInclude>
+    <ClInclude Include="c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\USB\USBAPI.h">
+      <Filter>_core\USB</Filter>
+    </ClInclude>
+    <ClInclude Include="c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\USB\USBCore.h">
+      <Filter>_core\USB</Filter>
+    </ClInclude>
+    <ClInclude Include="c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\USB\USBDesc.h">
+      <Filter>_core\USB</Filter>
+    </ClInclude>
+    <ClInclude Include="c:\Program Files\Arduino\libraries\Ethernet\src\Dhcp.h">
+      <Filter>_libraries\Ethernet\src</Filter>
+    </ClInclude>
+    <ClInclude Include="c:\Program Files\Arduino\libraries\Ethernet\src\Dns.h">
+      <Filter>_libraries\Ethernet\src</Filter>
+    </ClInclude>
+    <ClInclude Include="c:\Program Files\Arduino\libraries\Ethernet\src\EthernetClient.h">
+      <Filter>_libraries\Ethernet\src</Filter>
+    </ClInclude>
+    <ClInclude Include="c:\Program Files\Arduino\libraries\Ethernet\src\EthernetServer.h">
+      <Filter>_libraries\Ethernet\src</Filter>
+    </ClInclude>
+    <ClInclude Include="c:\Program Files\Arduino\libraries\Ethernet\src\utility\socket.h">
+      <Filter>_libraries\Ethernet\src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="c:\Program Files\Arduino\libraries\Ethernet\src\utility\util.h">
+      <Filter>_libraries\Ethernet\src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="c:\Program Files\Arduino\libraries\Ethernet\src\utility\w5100.h">
+      <Filter>_libraries\Ethernet\src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="c:\Program Files\Arduino\hardware\arduino\sam\libraries\SPI\SPI.h">
+      <Filter>_libraries\SPI</Filter>
+    </ClInclude>
+    <ClInclude Include="base_fcns.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="yei.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="c:\Program Files\Arduino\hardware\arduino\sam\libraries\Wire\Wire.h">
+      <Filter>_libraries\Wire</Filter>
+    </ClInclude>
+    <ClInclude Include="c:\Program Files\Arduino\hardware\arduino\sam\libraries\lsm303\LSM303.h">
+      <Filter>_libraries\lsm303</Filter>
+    </ClInclude>
+    <ClInclude Include="c:\Program Files\Arduino\hardware\arduino\sam\libraries\l3g\L3G.h">
+      <Filter>_libraries\l3g</Filter>
+    </ClInclude>
+    <ClInclude Include="c:\Program Files\Arduino\hardware\arduino\sam\libraries\I2Cdev\I2Cdev.h">
+      <Filter>_libraries\I2Cdev</Filter>
+    </ClInclude>
+    <ClInclude Include="pololu_imu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nav.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ROV_IMU.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="encoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\avr\dtostrf.c">
+      <Filter>_core\avr</Filter>
+    </ClCompile>
+    <ClCompile Include="c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\USB\CDC.cpp">
+      <Filter>_core\USB</Filter>
+    </ClCompile>
+    <ClCompile Include="c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\USB\HID.cpp">
+      <Filter>_core\USB</Filter>
+    </ClCompile>
+    <ClCompile Include="c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\USB\USBCore.cpp">
+      <Filter>_core\USB</Filter>
+    </ClCompile>
+    <ClCompile Include="c:\Program Files\Arduino\libraries\Ethernet\src\Dhcp.cpp">
+      <Filter>_libraries\Ethernet\src</Filter>
+    </ClCompile>
+    <ClCompile Include="c:\Program Files\Arduino\libraries\Ethernet\src\Dns.cpp">
+      <Filter>_libraries\Ethernet\src</Filter>
+    </ClCompile>
+    <ClCompile Include="c:\Program Files\Arduino\libraries\Ethernet\src\Ethernet.cpp">
+      <Filter>_libraries\Ethernet\src</Filter>
+    </ClCompile>
+    <ClCompile Include="c:\Program Files\Arduino\libraries\Ethernet\src\EthernetClient.cpp">
+      <Filter>_libraries\Ethernet\src</Filter>
+    </ClCompile>
+    <ClCompile Include="c:\Program Files\Arduino\libraries\Ethernet\src\EthernetServer.cpp">
+      <Filter>_libraries\Ethernet\src</Filter>
+    </ClCompile>
+    <ClCompile Include="c:\Program Files\Arduino\libraries\Ethernet\src\EthernetUdp.cpp">
+      <Filter>_libraries\Ethernet\src</Filter>
+    </ClCompile>
+    <ClCompile Include="c:\Program Files\Arduino\libraries\Ethernet\src\utility\socket.cpp">
+      <Filter>_libraries\Ethernet\src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="c:\Program Files\Arduino\libraries\Ethernet\src\utility\w5100.cpp">
+      <Filter>_libraries\Ethernet\src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="c:\Program Files\Arduino\hardware\arduino\sam\libraries\SPI\SPI.cpp">
+      <Filter>_libraries\SPI</Filter>
+    </ClCompile>
+    <ClCompile Include="base_fcns.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="yei.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="c:\Program Files\Arduino\hardware\arduino\sam\libraries\Wire\Wire.cpp">
+      <Filter>_libraries\Wire</Filter>
+    </ClCompile>
+    <ClCompile Include="c:\Program Files\Arduino\hardware\arduino\sam\libraries\lsm303\LSM303.cpp">
+      <Filter>_libraries\lsm303</Filter>
+    </ClCompile>
+    <ClCompile Include="c:\Program Files\Arduino\hardware\arduino\sam\libraries\l3g\L3G.cpp">
+      <Filter>_libraries\l3g</Filter>
+    </ClCompile>
+    <ClCompile Include="c:\Program Files\Arduino\hardware\arduino\sam\libraries\I2Cdev\I2Cdev.cpp">
+      <Filter>_libraries\I2Cdev</Filter>
+    </ClCompile>
+    <ClCompile Include="pololu_imu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nav.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,99 @@
+﻿Build started 2/23/2015 12:29:02 PM.
+     1>Project "C:\Academics\MS\codes\Arduino\Arduino_complete\ROV_IMU\ROV_IMU.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Softwares\VS2013\VC\bin\CL.exe /c /Ic:\softwares\Arduino\hardware\arduino\sam\cores\arduino /Ic:\softwares\Arduino\hardware\arduino\sam\variants\arduino_due_x /IC:\Academics\MS\codes\Arduino\Arduino_complete\ROV_IMU /Ic:\softwares\Arduino\hardware\arduino\sam\libraries\Wire /Ic:\softwares\Arduino\hardware\arduino\sam\libraries\Wire\utility /Ic:\softwares\Arduino\hardware\arduino\sam\libraries\SPI /Ic:\softwares\Arduino\hardware\arduino\sam\libraries\SPI\utility /Ic:\softwares\Arduino\libraries\Ethernet\src /Ic:\softwares\Arduino\libraries\Ethernet\src\utility /Ic:\softwares\Arduino\libraries\L3G /Ic:\softwares\Arduino\libraries\L3G\utility /Ic:\softwares\Arduino\libraries\LSM303 /Ic:\softwares\Arduino\libraries\LSM303\utility /Ic:\softwares\Arduino\libraries /Ic:\softwares\Arduino\hardware\arduino\sam\libraries /I"C:\Softwares\VisualMicro\Micro Platforms\default\debuggers" /IC:\Users\ChandraPrakash\Documents\Arduino\libraries /Ic:\softwares\Arduino\hardware\arduino\sam\system\CMSIS\Device\ATMEL\ /Ic:\softwares\Arduino\hardware\arduino\sam\system\libsam /Ic:\softwares\Arduino\hardware\arduino\sam\system\libsam\include /Ic:\softwares\Arduino\hardware\arduino\sam\system\CMSIS\CMSIS\Include\ /Ic:\softwares\Arduino\hardware\arduino\sam\system\CMSIS\CMSIS\Include\ /Ic:\softwares\Arduino\hardware\arduino\sam\system\CMSIS\Device\ATMEL\ /Ic:\softwares\Arduino\hardware\arduino\sam\system\libsam /Ic:\softwares\Arduino\hardware\arduino\sam\system\libsam\include /I"c:\softwares\Arduino/hardware/tools/g++_arm_none_eabi\arm-none-eabi\include" /Ic:\softwares\Arduino/hardware/tools/g++_arm_none_eabi\arm_none_eabi\include\ /I"c:\softwares\Arduino/hardware/tools/g++_arm_none_eabi\lib\gcc\arm-none-eabi\4.4.1\include" /I"c:\softwares\Arduino/hardware/tools/g++_arm_none_eabi\lib\gcc\arm-none-eabi\4.4.1\include\\" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D __SAM3X8E__ /D USB_VID=0x2341 /D USB_PID=0x003e /D USBCON /D "USB_MANUFACTURER=\"Unknown\"" /D "USB_PRODUCT=\"Arduino Due\"" /D ARDUINO=156 /D ARDUINO_MAIN /D printf=iprintf /D __SAM__ /D __sam__ /D F_CPU=84000000L /D __cplusplus /D _MBCS /X /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /FI"D:\Academics\Masters Project\codes\Arduino\Arduino_complete\ROV_IMU\Visual Micro\.ROV_IMU.vsarduino.h" /analyze- /errorReport:prompt base_fcns.cpp "c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\Print.cpp" "c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\Reset.cpp" "c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\RingBuffer.cpp" "c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\Stream.cpp" "c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\UARTClass.cpp" "c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\USARTClass.cpp" "c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\USB\CDC.cpp" "c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\USB\HID.cpp" "c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\USB\USBCore.cpp" "c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\wiring_pulse.cpp" "c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\WMath.cpp" "c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\WString.cpp" "c:\Program Files\Arduino\hardware\arduino\sam\libraries\I2Cdev\I2Cdev.cpp" "c:\Program Files\Arduino\hardware\arduino\sam\libraries\l3g\L3G.cpp" "c:\Program Files\Arduino\hardware\arduino\sam\libraries\lsm303\LSM303.cpp" "c:\Program Files\Arduino\hardware\arduino\sam\libraries\SPI\SPI.cpp" "c:\Program Files\Arduino\hardware\arduino\sam\libraries\Wire\Wire.cpp" "c:\Program Files\Arduino\libraries\Ethernet\src\Dhcp.cpp" "c:\Program Files\Arduino\libraries\Ethernet\src\Dns.cpp" "c:\Program Files\Arduino\libraries\Ethernet\src\Ethernet.cpp" "c:\Program Files\Arduino\libraries\Ethernet\src\EthernetClient.cpp" "c:\Program Files\Arduino\libraries\Ethernet\src\EthernetServer.cpp" "c:\Program Files\Arduino\libraries\Ethernet\src\EthernetUdp.cpp" "c:\Program Files\Arduino\libraries\Ethernet\src\utility\socket.cpp" "c:\Program Files\Arduino\libraries\Ethernet\src\utility\w5100.cpp" encoder.cpp pololu_imu.cpp yei.cpp
+         yei.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c:\academics\ms\codes\arduino\arduino_complete\rov_imu\yei.cpp : fatal error C1083: Cannot open include file: 'D:\Academics\Masters Project\codes\Arduino\Arduino_complete\ROV_IMU\Visual Micro\.ROV_IMU.vsarduino.h': No such file or directory
+         pololu_imu.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c:\academics\ms\codes\arduino\arduino_complete\rov_imu\pololu_imu.cpp : fatal error C1083: Cannot open include file: 'D:\Academics\Masters Project\codes\Arduino\Arduino_complete\ROV_IMU\Visual Micro\.ROV_IMU.vsarduino.h': No such file or directory
+         encoder.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c:\academics\ms\codes\arduino\arduino_complete\rov_imu\encoder.cpp : fatal error C1083: Cannot open include file: 'D:\Academics\Masters Project\codes\Arduino\Arduino_complete\ROV_IMU\Visual Micro\.ROV_IMU.vsarduino.h': No such file or directory
+         w5100.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c1xx : fatal error C1083: Cannot open source file: 'c:\Program Files\Arduino\libraries\Ethernet\src\utility\w5100.cpp': No such file or directory
+         socket.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c1xx : fatal error C1083: Cannot open source file: 'c:\Program Files\Arduino\libraries\Ethernet\src\utility\socket.cpp': No such file or directory
+         EthernetUdp.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c1xx : fatal error C1083: Cannot open source file: 'c:\Program Files\Arduino\libraries\Ethernet\src\EthernetUdp.cpp': No such file or directory
+         EthernetServer.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c1xx : fatal error C1083: Cannot open source file: 'c:\Program Files\Arduino\libraries\Ethernet\src\EthernetServer.cpp': No such file or directory
+         EthernetClient.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c1xx : fatal error C1083: Cannot open source file: 'c:\Program Files\Arduino\libraries\Ethernet\src\EthernetClient.cpp': No such file or directory
+         Ethernet.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c1xx : fatal error C1083: Cannot open source file: 'c:\Program Files\Arduino\libraries\Ethernet\src\Ethernet.cpp': No such file or directory
+         Dns.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c1xx : fatal error C1083: Cannot open source file: 'c:\Program Files\Arduino\libraries\Ethernet\src\Dns.cpp': No such file or directory
+         Dhcp.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c1xx : fatal error C1083: Cannot open source file: 'c:\Program Files\Arduino\libraries\Ethernet\src\Dhcp.cpp': No such file or directory
+         Wire.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c1xx : fatal error C1083: Cannot open source file: 'c:\Program Files\Arduino\hardware\arduino\sam\libraries\Wire\Wire.cpp': No such file or directory
+         SPI.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c1xx : fatal error C1083: Cannot open source file: 'c:\Program Files\Arduino\hardware\arduino\sam\libraries\SPI\SPI.cpp': No such file or directory
+         LSM303.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c1xx : fatal error C1083: Cannot open source file: 'c:\Program Files\Arduino\hardware\arduino\sam\libraries\lsm303\LSM303.cpp': No such file or directory
+         L3G.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c1xx : fatal error C1083: Cannot open source file: 'c:\Program Files\Arduino\hardware\arduino\sam\libraries\l3g\L3G.cpp': No such file or directory
+         I2Cdev.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c1xx : fatal error C1083: Cannot open source file: 'c:\Program Files\Arduino\hardware\arduino\sam\libraries\I2Cdev\I2Cdev.cpp': No such file or directory
+         WString.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c1xx : fatal error C1083: Cannot open source file: 'c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\WString.cpp': No such file or directory
+         WMath.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c1xx : fatal error C1083: Cannot open source file: 'c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\WMath.cpp': No such file or directory
+         wiring_pulse.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c1xx : fatal error C1083: Cannot open source file: 'c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\wiring_pulse.cpp': No such file or directory
+         USBCore.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c1xx : fatal error C1083: Cannot open source file: 'c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\USB\USBCore.cpp': No such file or directory
+         Generating Code...
+         Compiling...
+         HID.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c1xx : fatal error C1083: Cannot open source file: 'c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\USB\HID.cpp': No such file or directory
+         CDC.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c1xx : fatal error C1083: Cannot open source file: 'c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\USB\CDC.cpp': No such file or directory
+         USARTClass.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c1xx : fatal error C1083: Cannot open source file: 'c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\USARTClass.cpp': No such file or directory
+         UARTClass.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c1xx : fatal error C1083: Cannot open source file: 'c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\UARTClass.cpp': No such file or directory
+         Stream.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c1xx : fatal error C1083: Cannot open source file: 'c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\Stream.cpp': No such file or directory
+         RingBuffer.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c1xx : fatal error C1083: Cannot open source file: 'c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\RingBuffer.cpp': No such file or directory
+         Reset.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c1xx : fatal error C1083: Cannot open source file: 'c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\Reset.cpp': No such file or directory
+         Print.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c1xx : fatal error C1083: Cannot open source file: 'c:\Program Files\Arduino\hardware\arduino\sam\cores\arduino\Print.cpp': No such file or directory
+         base_fcns.cpp
+     1>c1xx : warning C4117: macro name '__cplusplus' is reserved, '#define' ignored
+     1>c:\academics\ms\codes\arduino\arduino_complete\rov_imu\base_fcns.cpp : fatal error C1083: Cannot open include file: 'D:\Academics\Masters Project\codes\Arduino\Arduino_complete\ROV_IMU\Visual Micro\.ROV_IMU.vsarduino.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Academics\MS\codes\Arduino\Arduino_complete\ROV_IMU\ROV_IMU.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.11
