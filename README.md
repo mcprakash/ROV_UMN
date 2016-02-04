@@ -1,9 +1,13 @@
+# DESCRIPTION
+
 This repository contains the source code (Aruino and R-Pi) for my Masters Project
 - Vision Aided Inertial Localization for ROV 
 
 # Watch Underwater Experiments Video
 
 [![ScreenShot](http://gdriv.es/cp_webpage/msprj.png)](https://www.youtube.com/watch?v=BrpCUNYMfpE)
+
+# INSTALLATION
 
 The Arduino Due must be connected with the Raspberry Pi using an
 ethernet cable to enable cross-talk. Specific libraries must be installed
