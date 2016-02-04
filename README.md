@@ -91,5 +91,5 @@ Deployment/Field Testing:
 
 #ACKNOWLEDGEMENTS
 
-Special thanks to Prof. Perry Li for his guidance and support in completing the project
+Special thanks to Prof. Perry Li for his exceptional guidance and support in developing the SO3-PnP Algorithm
 
