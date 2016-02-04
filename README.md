@@ -89,5 +89,7 @@ Deployment/Field Testing:
 	5. After initialization, move the Sensor/ROV for testing
 
 
+#ACKNOWLEDGEMENTS
 
+Special thanks to Prof. Perry Li for his guidance and support in completing the project
 
