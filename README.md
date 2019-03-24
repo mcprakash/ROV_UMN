@@ -5,7 +5,7 @@ This repository contains the source code (Aruino and R-Pi) for my Masters Projec
 
 # Watch Underwater Experiments Video
 
-[![ScreenShot](https://s11.postimg.org/ymckd2543/msprj.png)](https://www.youtube.com/watch?v=BrpCUNYMfpE)
+<a href="https://www.youtube.com/watch?v=BrpCUNYMfpE"><img src="http://drive.google.com/uc?export=view&id=1h5NPRLDZvgpIDwMU3efr-od2uUcgOUcW" height="320px" target="_blank"  title="rovumn" alt="rovumn_img"></a>
 
 # INSTALLATION
 
