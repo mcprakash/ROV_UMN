@@ -3,8 +3,13 @@
 #																		 
 #  Shader to implement a 5 point kernel	on y-axis	 				     
 ##########################################################################
-#  Copyright(C)  <December 2015>  <Chandra P. Mangipudi					 
-#																		 
+#  Copyright(C)  <December 2015>  <Chris Cummings 
+#  MyRobotBlogPost -> http://robotblogging.blogspot.com/2013/
+#  Shader files by cheerfulprogrammer ->
+#       http://www.cheerfulprogrammer.com/downloads/picamgpu/picam_gpu.zip
+#						
+#  Chandra P. Mangipudi -> Update code for LAB
+#  																 
 #  This program is free software : you can redistribute it and/or modify 
 #  it under the terms of the GNU General Public License as published by  
 #  the Free Software Foundation, either version 3 of the License, or	 

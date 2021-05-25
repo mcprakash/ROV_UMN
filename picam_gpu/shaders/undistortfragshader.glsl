@@ -3,7 +3,10 @@
 #																		 
 #  Shader to implement the undistort function of OpenCV				     
 ##########################################################################
-#  Copyright(C)  <December 2015>  <Chandra P. Mangipudi					 
+#  Copyright(C)  <December 2015>  <Chris Cummings 
+#  MyRobotBlogPost -> http://robotblogging.blogspot.com/2013/
+#  Shader files by cheerfulprogrammer ->
+#       http://www.cheerfulprogrammer.com/downloads/picamgpu/picam_gpu.zip
 #																		 
 #  This program is free software : you can redistribute it and/or modify 
 #  it under the terms of the GNU General Public License as published by  

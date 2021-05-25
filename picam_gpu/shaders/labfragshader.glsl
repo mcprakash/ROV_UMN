@@ -3,8 +3,13 @@
 #																		 
 #  Shader to convert RGB color space to LAB			 				     
 ##########################################################################
-#  Copyright(C)  <December 2015>  <Chandra P. Mangipudi					 
-#																		 
+#  Copyright(C)  <December 2015>  <Chris Cummings 
+#  MyRobotBlogPost -> http://robotblogging.blogspot.com/2013/
+#  Shader files by cheerfulprogrammer ->
+#       http://www.cheerfulprogrammer.com/downloads/picamgpu/picam_gpu.zip
+#						
+#  Chandra P. Mangipudi -> Update code for LAB
+#  											 
 #  This program is free software : you can redistribute it and/or modify 
 #  it under the terms of the GNU General Public License as published by  
 #  the Free Software Foundation, either version 3 of the License, or	 
@@ -18,7 +23,6 @@
 #  You should have received a copy of the GNU General Public License	 
 #  along with this program.If not, see <http://www.gnu.org/licenses/>.	 
 ##########################################################################
-
 varying vec2 tcoord;
 uniform sampler2D tex;
 

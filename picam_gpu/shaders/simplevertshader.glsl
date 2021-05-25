@@ -1,12 +1,15 @@
 ##########################################################################
-#  Simple Vertex Shader													 
+#  Simple Vertex Shader												 
 #																		 
-#  Shader to simply locate the position on a texture 				     
+#  Shader to simply add color to a texture			 				     
 ##########################################################################
-#  Copyright(C)  <December 2015>  <Chandra P. Mangipudi					 
+#  Copyright(C)  <December 2015>  <Chris Cummings 
+#  MyRobotBlogPost -> http://robotblogging.blogspot.com/2013/
+#  Shader files by cheerfulprogrammer ->
+#       http://www.cheerfulprogrammer.com/downloads/picamgpu/picam_gpu.zip
 #																		 
 #  This program is free software : you can redistribute it and/or modify 
-#  it under the terms of the GNU General Public License as published by   
+#  it under the terms of the GNU General Public License as published by  
 #  the Free Software Foundation, either version 3 of the License, or	 
 #  (at your option) any later version.									 
 #																		 
